@@ -1,5 +1,5 @@
 [devices, names] = GetKeyboardIndices;
-KEYBOARDTOUSE = 'Magic Key';
+KEYBOARDTOUSE = '';
 DEVICE = max(devices(cellfun(@(x) ~isempty(x), regexpi(names,KEYBOARDTOUSE))));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

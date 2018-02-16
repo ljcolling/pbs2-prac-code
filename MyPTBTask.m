@@ -54,7 +54,7 @@ for t = 1 : size(trialTable,1)
     Screen('Flip',w);
    
     % Store the responses 
-    trialTable.Response(trial) = keyName;
+    trialTable.Response(trial) = keyCode;
     
     trialTable.RT(trial) = pressTime - stimulusOnsent;
     

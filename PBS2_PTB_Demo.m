@@ -26,11 +26,6 @@ KbWait(-1);
 % Generate some trials
 trialTable = MakeTrials;
 
-% Add a col to store response 
-trialTable.Response = nan(height(trialTable),1);
-
-% Add a col to store the RT
-trialTable.RT = nan(height(trialTable),1);
 
 
 % Start recording keyboard responses

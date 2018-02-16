@@ -8,6 +8,11 @@ stimuli = arrayfun(@(x) {num2str(x)},stimuli);
 
 trialTable = table(stimuli',responses',condition','VariableNames',{'Stimulus','CorrectResponse','Condition'});
 
+% Add a col to store response 
+trialTable.Response = nan(height(trialTable),1);
+
+% Add a col to store the RT
+trialTable.RT = nan(height(trialTable),1);
 
 
 function response = MatchNumberToResponse(number)

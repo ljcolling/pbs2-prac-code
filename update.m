@@ -1,4 +1,3 @@
-websave('.DS_Store','https://github.com/ljcolling/pbs2-prac-code/raw/master/.DS_Store')
 websave('CalcMean_CI.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CalcMean_CI.m')
 websave('CalculateMeansAndPlot.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CalculateMeansAndPlot.m')
 websave('CollectResponses.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CollectResponses.m')

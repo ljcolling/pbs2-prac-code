@@ -32,11 +32,11 @@ function condition = MatchNumberToCondition(number)
 
 switch number
     case 1
-        condition = 's';
+        condition = 'b';
     case 4
         condition = 's';
     case 6
-        condition = 'b';
+        condition = 's';
     case 9
         condition = 'b';
 end

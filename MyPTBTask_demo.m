@@ -15,8 +15,8 @@ Screen('Preference', 'SkipSyncTests', 1);
 
 
 
-Screen('TextSize',w,24);
-DrawFormattedText(w,'Push z if the number is less than 5 and push m if the number is greater than 5','center','center',[],60)
+Screen('TextSize',w,24); 
+DrawFormattedText(w,'Push q if the number is less than 5 and push p if the number is greater than 5','center','center',[],60)
 
 Screen('Flip',w)
 
@@ -54,9 +54,9 @@ for t = 1 : size(trialTable,1)
     Screen('Flip',w);
    
     % Store the responses 
-    trialTable.Response(trial) = keyCode;
+    trialTable.Response(t) = keyCode;
     
-    trialTable.RT(trial) = pressTime - stimulusOnsent;
+    trialTable.RT(t) = pressTime - stimulusOnsent;
     
     % Wait .5 seconds before the next trial
     

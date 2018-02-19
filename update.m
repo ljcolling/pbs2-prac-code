@@ -1,3 +1,4 @@
+websave('.DS_Store','https://github.com/ljcolling/pbs2-prac-code/raw/master/.DS_Store')
 websave('CalcMean_CI.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CalcMean_CI.m')
 websave('CalculateMeansAndPlot.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CalculateMeansAndPlot.m')
 websave('CollectResponses.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/CollectResponses.m')
@@ -16,3 +17,4 @@ websave('SayHello.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/Say
 websave('SendData.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/SendData.m')
 websave('SendData.p','https://github.com/ljcolling/pbs2-prac-code/raw/master/SendData.p')
 websave('getfiles.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/getfiles.m')
+websave('p_data.mat','https://github.com/ljcolling/pbs2-prac-code/raw/master/p_data.mat')

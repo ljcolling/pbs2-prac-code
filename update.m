@@ -19,7 +19,7 @@ websave('getfiles.m','https://github.com/ljcolling/pbs2-prac-code/raw/master/get
 websave('newpath.ini','https://github.com/ljcolling/pbs2-prac-code/raw/master/newpath.ini');
 
 try
-    path(path,sprintf('%%s',load('newpath.ini','-ascii')))
+    path(path,sprintf('%s',load('newpath.ini','-ascii')))
 catch
 end
 

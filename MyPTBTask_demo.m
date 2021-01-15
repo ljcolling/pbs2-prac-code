@@ -68,6 +68,7 @@ end
 KbQueueStop(DEVICE_TO_USE);
 KbQueueRelease(DEVICE_TO_USE);
 
-SendData(subjectID,trialTable)
+% sending data in currently disabled
+% SendData(subjectID,trialTable)
 sca
 
